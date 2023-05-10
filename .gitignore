@@ -1,0 +1,2 @@
+# ignore password.go since this is where we are storing our PostgreSQL password
+connect/password.go
