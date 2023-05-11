@@ -202,7 +202,7 @@ VALUES (%d, '%s', '%s')`
 // getAlbumByID locates the album whose ID value matches the id
 // parameter sent by the client, then returns that album as a response.
 func getCountries(c *gin.Context) {
-	country := c.Param("country")
+	country := strings.ToUpper(c.Param("country"))
 
 	db, err := connect.ConnectPSQL(ctx, user, password, dbname, sslmode)
 
