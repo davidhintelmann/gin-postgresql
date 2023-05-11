@@ -3,6 +3,7 @@ module github.com/davidhintelmann/gin-postgresql
 go 1.20
 
 require (
+	github.com/davidhintelmann/gin-postgresql/connect v0.0.0-20230511100006-85638441edc5
 	github.com/gin-gonic/gin v1.9.0
 	github.com/jackc/pgx/v5 v5.3.1
 )
