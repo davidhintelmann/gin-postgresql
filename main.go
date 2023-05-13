@@ -17,7 +17,7 @@ import (
 const user, dbname, sslmode = "david", "AdventureWorks2014", "disable"
 
 // be careful not to expose your password to the public
-var password string // "***REMOVED***"
+var password string
 
 // use background context globally to pass between functions
 var ctx = context.Background()
